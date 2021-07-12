@@ -5,7 +5,45 @@
 body {
   font-family: "Poppins", sans-serif;
   background-color: #f3f1ff;
+  margin: 0 auto;
+  padding: a0;
 }
+/* Navigation bar */
+header {
+  padding: 0 300px;
+}
+.nav-bar {
+  height: 94px;
+  background: #562eff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile {
+  display: flex;
+}
+.nav-item {
+  display: flex;
+  text-align: right;
+  margin-right: 20px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+  font-size: 12px;
+  color: #ffffff;
+}
+.nav-item a {
+  text-decoration: none;
+  padding: 10px;
+  color: #ffffff;
+}
+.logo {
+  height: 40px;
+  margin-right: 10px;
+}
+
 main {
   display: flex;
   flex-direction: column;
